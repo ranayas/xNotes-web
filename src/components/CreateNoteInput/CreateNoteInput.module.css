@@ -1,0 +1,13 @@
+.create-note-input {
+  border: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08));
+  padding: 0.8rem 1.6rem;
+  border-radius: 1.6rem;
+  width: 100%;
+  text-align: left;
+  color: grey
+}
+
+.create-note-input:hover {
+  cursor: pointer;
+}

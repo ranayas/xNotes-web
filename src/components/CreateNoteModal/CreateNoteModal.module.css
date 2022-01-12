@@ -1,0 +1,40 @@
+.create-note-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.create-note-modal__content {
+  background-color: white;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+}
+
+.create-note-modal__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.create-note-modal__title {
+  border: none;
+  font-size: 2rem;
+}
+
+.create-note-modal__note {
+  border: none;
+}
+
+.create-note-modal__buttons {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
