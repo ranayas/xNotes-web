@@ -9,7 +9,9 @@ const CreateNoteInput: FC<{
       className={styles['create-note-input']}
       onClick={onClick}
       placeholder="Create note"
-    >Create note</button>
+    >
+      Create note
+    </button>
   );
 };
 
